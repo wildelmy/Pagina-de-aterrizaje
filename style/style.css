@@ -1,0 +1,96 @@
+body {
+  background: #c31432;
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);
+  background: linear-gradient(to right, #240b36, #c31432);
+  color: floralwhite;
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#header{
+  background-color: rgb(182, 0, 30);
+  padding: 0px;
+  position: sticky; top:0; 
+}
+
+
+#header-img {
+  padding: px;
+  height: 80px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.nav-link a {
+  align-items: center;
+  text-decoration: none;
+  margin: 0 7px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-link a:hover{
+    color: crimson;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(245, 245, 220, 0.781);
+}
+
+#footer{
+    background-color: rgb(182, 0, 30);
+    padding: 2px;
+    text-align: center;
+
+}
+
+.container{
+    display: flex;;
+    padding: 5px;
+}
+
+
+.container div{
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    -webkit-box-shadow: -7px -7px 10px #D2691E;
+    -moz-box-shadow: -7px -7px 10px #D2691E;
+    box-shadow: -7px -7px 10px #D2691E;
+    background-color: #DDDDDD;
+    width: 100 px;
+    margin: 10px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 12pt;
+    color: #888888;
+    text-align: center;
+}
+
+#title{
+    color: rgb(100, 99, 99);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-family: sans-serif
+    
+}
+
+#video{
+   align-content: center;
+}
